@@ -1,8 +1,8 @@
 {
   "type": "module",
-  "name": "prettier-plugin-tailwindcss",
-  "version": "0.6.11",
-  "description": "A Prettier plugin for sorting Tailwind CSS classes.",
+  "name": "prettier-plugin-tailwindcss-drupal",
+  "version": "1.0.0",
+  "description": "A Prettier plugin for sorting Tailwind CSS classes with Drupal syntax support.",
   "license": "MIT",
   "main": "dist/index.mjs",
   "module": "dist/index.mjs",
@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tailwindlabs/prettier-plugin-tailwindcss"
+    "url": "https://github.com/bronisMateusz/prettier-plugin-tailwindcss"
   },
   "bugs": {
-    "url": "https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues"
+    "url": "https://github.com/bronisMateusz/prettier-plugin-tailwindcss/issues"
   },
   "scripts": {
     "_pre": "rimraf dist && cpy 'node_modules/tailwindcss/lib/css/*' dist/css",
